@@ -133,7 +133,7 @@
                                 </path>
                             </svg>
                         </a></li>
-                    <li class="social-item"><a href="https://youtube.com/edukaafrica" class="social-link">
+                    <li class="social-item"><a href="https://youtube.com/@edukaafrica23" class="social-link">
                             <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 576 512">
                                 <path fill="currentColor"
@@ -149,7 +149,7 @@
                                 </path>
                             </svg>
                         </a></li>
-                    <li class="social-item"><a href="https://twitter.com/edukaafrica" class="social-link">
+                    <li class="social-item"><a href="https://twitter.com/edukaafrika" class="social-link">
                             <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 512 512">
                                 <path fill="currentColor"
@@ -157,7 +157,7 @@
                                 </path>
                             </svg>
                         </a></li>
-                    <li class="social-item"><a href="https://facebook.com/edukaafrica" class="social-link">
+                    <li class="social-item"><a href="https://facebook.com/edukaafrika" class="social-link">
                             <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 320 512">
                                 <path fill="currentColor"
@@ -178,7 +178,7 @@
             </div>
             <div class="footer__area-3">
                 <div class="left">
-                    <p class="copyright">© 2022 - 2023 Eduka África — Todos os direitos reservados</p>
+                    <p class="copyright">© 2023 - 2024 Eduka África — Todos os direitos reservados</p>
                 </div>
                 <div class="right"></div>
             </div>

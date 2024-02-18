@@ -4,7 +4,7 @@ import vueResource from 'vue-resource'
 Vue.use(vueResource)
 const api = Vue.http
 
-api.options.root = 'http://localhost:3333/'
+api.options.root = 'http://51.222.200.112:3333/'
 
 api.headers.common['Authorization'] = "Bearer " + localStorage.getItem("access_token")
 
