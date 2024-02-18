@@ -1,0 +1,2 @@
+export const SET_LESSON = "CLASSROOM/SET_LESSON"
+export const SET_ROOM = "CLASSROOM/SET_ROOM"

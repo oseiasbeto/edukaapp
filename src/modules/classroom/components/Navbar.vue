@@ -1,0 +1,318 @@
+<template>
+    <header class="navbar-academy">
+      <div class="contents">
+        <div class="left">
+          <a href="/epanel" class="logo"><span
+              style="display: flex; align-items: center; width: 112px; color: rgb(255, 255, 255);"><svg
+                xmlns="http://www.w3.org/2000/svg" version="1.0" width="100%" viewBox="0 0 1664.000000 458.000000"
+                preserveAspectRatio="xMidYMid meet">
+                <g transform="translate(0.000000,458.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
+                  <path
+                    d="M8527 4426 c-52 -14 -81 -36 -106 -81 -14 -26 -16 -79 -19 -396 l-3 -365 -67 22 c-103 34 -242 55 -407 61 -400 15 -709 -89 -896 -301 -108 -123 -192 -322 -225 -531 -25 -163 -23 -462 5 -620 80 -452 307 -703 726 -803 102 -25 126 -27 335 -26 211 0 231 2 322 26 149 41 298 116 396 200 31 26 38 28 125 28 51 0 110 5 132 11 59 17 110 73 124 137 14 66 15 2456 1 2516 -12 53 -38 87 -86 111 -32 16 -63 20 -174 22 -90 2 -151 -2 -183 -11z m-447 -1282 c177 -52 278 -163 327 -360 24 -96 24 -378 0 -484 -35 -154 -119 -281 -229 -347 -150 -91 -401 -96 -558 -12 -115 61 -200 187 -237 349 -26 115 -23 409 5 512 58 211 173 321 377 358 70 13 249 4 315 -16z">
+                  </path>
+                  <path
+                    d="M11865 4431 c-76 -19 -120 -58 -140 -125 -13 -43 -15 -233 -15 -1373 0 -971 3 -1336 12 -1370 15 -61 70 -116 131 -131 59 -15 235 -15 294 0 57 14 114 68 131 124 8 29 12 140 12 371 l0 329 54 53 54 53 384 -449 c288 -336 394 -454 424 -468 34 -17 67 -20 270 -23 242 -4 290 2 338 39 31 24 35 73 10 120 -11 22 -817 1000 -981 1190 -12 14 29 52 355 332 202 173 374 327 380 342 29 63 4 125 -61 150 -37 14 -80 16 -298 13 -249 -3 -255 -4 -301 -28 -26 -14 -176 -134 -335 -268 l-288 -243 -5 618 c-5 564 -7 621 -22 650 -24 44 -74 80 -128 92 -51 12 -229 13 -275 2z">
+                  </path>
+                  <path
+                    d="M1898 3964 c-3 -3 -92 -12 -197 -20 -185 -14 -193 -15 -249 -46 -51 -30 -65 -33 -137 -33 -53 0 -91 6 -112 16 l-31 17 -19 -41 c-25 -57 -59 -95 -98 -112 -46 -19 -65 -53 -75 -132 -9 -69 -31 -103 -67 -103 -24 0 -121 -99 -154 -159 -18 -31 -58 -85 -90 -120 -33 -35 -59 -73 -59 -83 0 -11 15 -46 32 -78 30 -54 32 -61 20 -92 -6 -19 -12 -50 -12 -70 0 -21 -10 -50 -25 -72 -13 -20 -21 -36 -16 -36 15 0 31 -52 26 -84 -6 -28 -3 -33 30 -50 48 -26 123 -108 130 -143 12 -51 26 -70 83 -104 30 -19 80 -56 109 -83 l53 -49 42 16 c71 26 113 30 203 16 l84 -12 85 41 c52 26 99 42 121 42 64 0 149 -47 138 -76 -4 -11 6 -14 47 -14 64 0 116 -23 135 -61 21 -40 19 -68 -10 -125 -14 -27 -25 -57 -25 -67 0 -39 30 -76 85 -102 56 -28 59 -32 55 -73 -1 -13 10 -42 25 -64 16 -24 31 -65 36 -101 6 -34 14 -76 20 -93 17 -57 10 -98 -31 -179 -22 -43 -40 -90 -40 -104 0 -50 31 -156 82 -280 28 -69 59 -159 69 -199 10 -40 46 -125 79 -190 48 -93 63 -134 74 -201 10 -64 19 -89 35 -102 33 -27 100 -33 155 -15 26 9 79 16 120 16 97 0 114 12 324 242 47 51 52 61 52 103 0 64 21 98 74 124 25 11 50 21 56 21 18 0 31 41 24 73 -3 18 -18 54 -31 81 l-25 48 48 69 c49 71 80 96 183 148 34 18 65 39 68 47 3 9 -1 39 -10 68 -10 33 -14 70 -10 103 4 36 0 65 -11 93 -9 22 -16 55 -16 74 0 18 -9 54 -21 80 -24 56 -22 66 39 166 68 111 97 143 202 224 133 102 217 195 262 286 37 76 68 169 68 202 0 25 -40 24 -82 -2 -28 -17 -51 -20 -139 -20 -94 0 -110 3 -140 23 -25 17 -37 34 -44 66 -9 34 -21 50 -57 77 -26 18 -59 55 -74 81 -15 26 -51 71 -79 98 -46 45 -53 57 -65 115 -21 105 -57 199 -111 292 -36 62 -56 113 -71 175 -11 49 -22 93 -24 100 -2 8 -22 12 -56 11 -105 -2 -262 24 -386 63 -135 43 -155 42 -167 -10 -8 -39 -55 -83 -75 -71 -8 5 -35 10 -58 10 -35 0 -52 7 -85 35 -46 40 -132 75 -182 75 -18 0 -41 7 -49 16 -17 16 -16 23 13 123 l17 56 -33 22 c-35 24 -46 27 -55 17z">
+                  </path>
+                  <path
+                    d="M5295 3674 c-245 -24 -366 -53 -510 -124 -177 -86 -288 -198 -375 -375 -102 -207 -145 -494 -120 -801 28 -351 125 -585 317 -757 114 -104 323 -192 524 -221 139 -21 399 -21 538 0 135 20 299 74 396 130 89 53 200 154 261 240 50 70 125 222 148 302 l15 52 -328 0 -329 0 -32 -49 c-87 -137 -214 -195 -420 -194 -281 1 -440 112 -495 345 -8 35 -15 75 -15 90 l0 27 738 3 c684 3 740 4 777 21 99 45 120 97 112 280 -10 224 -55 408 -137 565 -155 299 -447 451 -895 466 -71 2 -148 2 -170 0z m280 -519 c176 -37 296 -153 313 -301 l5 -44 -498 0 -498 0 6 43 c14 98 84 201 172 253 103 60 339 83 500 49z">
+                  </path>
+                  <path
+                    d="M14726 3669 c-259 -23 -462 -111 -603 -262 -68 -73 -138 -186 -160 -256 -18 -58 -12 -135 13 -162 39 -44 71 -49 301 -49 l218 0 18 51 c50 139 189 200 458 200 305 0 422 -60 453 -234 6 -33 4 -38 -16 -46 -13 -4 -137 -22 -275 -40 -370 -47 -691 -98 -788 -126 -249 -73 -410 -215 -472 -420 -28 -93 -25 -324 5 -428 27 -96 47 -135 107 -214 51 -68 139 -140 228 -184 297 -151 826 -177 1147 -58 83 31 152 74 225 139 l65 60 89 0 c141 0 213 36 246 124 14 36 15 118 13 656 -4 607 -4 616 -27 695 -66 232 -208 384 -442 475 -187 72 -517 105 -803 79z m701 -1376 c-6 -143 -23 -196 -84 -264 -105 -116 -309 -171 -554 -150 -198 17 -275 49 -316 131 -53 103 -4 216 113 260 30 11 177 37 331 60 153 22 323 49 378 59 154 29 139 40 132 -96z">
+                  </path>
+                  <path
+                    d="M9406 3596 c-57 -21 -88 -47 -116 -97 l-25 -44 -3 -610 c-4 -765 3 -836 101 -1035 33 -68 58 -102 127 -170 126 -127 270 -195 496 -236 135 -24 458 -25 596 -1 192 33 329 89 438 176 l63 51 86 0 c105 0 151 12 196 51 62 55 60 24 60 939 l0 835 -22 41 c-50 93 -121 120 -300 112 -137 -5 -187 -29 -225 -105 l-23 -48 -5 -635 -5 -635 -24 -59 c-41 -103 -133 -177 -264 -212 -79 -22 -250 -29 -347 -15 -152 23 -246 72 -301 159 -64 101 -63 85 -69 777 l-5 630 -25 45 c-17 29 -41 53 -70 70 -40 22 -58 25 -170 28 -90 1 -136 -2 -164 -12z">
+                  </path>
+                  <path
+                    d="M3796 1427 c-5 -21 -96 -108 -140 -134 -12 -7 -40 -12 -62 -13 -62 0 -70 -15 -49 -101 15 -59 15 -74 4 -95 -10 -20 -10 -36 0 -88 7 -35 12 -83 11 -107 -4 -91 -3 -92 33 -86 17 3 62 19 99 35 60 27 68 34 77 69 6 21 11 73 11 116 0 60 6 91 25 137 14 33 25 70 25 83 0 12 9 40 20 62 11 22 20 47 20 57 0 24 -27 66 -50 78 -14 8 -19 5 -24 -13z">
+                  </path>
+                  <path d="M14160 1088 c-44 -47 -48 -58 -24 -58 18 0 114 77 114 91 0 5 -11 9 -25 9 -17 0 -39 -14 -65 -42z">
+                  </path>
+                  <path
+                    d="M15389 1001 c-81 -26 -131 -109 -133 -219 -3 -166 97 -259 241 -222 58 14 73 26 73 56 0 29 0 29 -45 3 -28 -17 -47 -20 -86 -17 -85 8 -119 60 -119 178 0 149 89 219 205 160 49 -25 47 -25 43 7 -2 19 -12 32 -30 41 -36 17 -116 24 -149 13z">
+                  </path>
+                  <path
+                    d="M14105 988 c-3 -7 -38 -103 -79 -213 -41 -110 -72 -203 -69 -207 2 -5 15 -8 28 -8 20 0 26 9 43 58 l19 57 93 0 94 0 21 -55 c17 -46 25 -56 48 -58 15 -2 27 1 27 7 0 16 -142 404 -153 419 -5 6 -23 12 -39 12 -16 0 -31 -6 -33 -12z m76 -158 l36 -100 -78 0 -78 0 31 83 c17 45 33 90 35 100 3 9 8 17 12 17 3 0 22 -45 42 -100z">
+                  </path>
+                  <path
+                    d="M14417 993 c-4 -3 -7 -103 -7 -220 l0 -214 28 3 27 3 3 93 3 92 79 0 c79 0 80 0 80 25 0 25 -1 25 -80 25 l-80 0 0 75 0 75 85 0 c84 0 85 0 85 25 l0 25 -108 0 c-60 0 -112 -3 -115 -7z">
+                  </path>
+                  <path
+                    d="M14737 993 c-4 -3 -7 -103 -7 -220 l0 -214 28 3 27 3 3 93 3 92 30 0 c51 0 69 -18 110 -106 34 -73 42 -84 64 -84 15 0 25 6 25 14 0 23 -60 149 -81 172 -20 21 -20 21 6 38 82 54 61 180 -34 206 -41 11 -164 14 -174 3z m174 -62 c17 -13 23 -29 23 -56 0 -51 -30 -75 -95 -75 l-49 0 0 75 0 75 49 0 c33 0 56 -6 72 -19z">
+                  </path>
+                  <path d="M15110 780 l0 -221 28 3 27 3 0 215 0 215 -27 3 -28 3 0 -221z"></path>
+                  <path
+                    d="M15765 988 c-3 -7 -38 -103 -79 -213 -41 -110 -72 -203 -69 -207 2 -5 15 -8 28 -8 20 0 26 9 43 58 l19 57 93 0 94 0 21 -55 c17 -46 25 -56 48 -58 15 -2 27 1 27 7 0 16 -142 404 -153 419 -5 6 -23 12 -39 12 -16 0 -31 -6 -33 -12z m76 -158 l36 -100 -78 0 -78 0 31 83 c17 45 33 90 35 100 3 9 8 17 12 17 3 0 22 -45 42 -100z">
+                  </path>
+                </g>
+              </svg></span></a>
+        </div>
+        <div class="right">
+          <div @click="openMenu($event, i)" class="user">
+            <div class="papover">
+              <div class="user-side">
+                <div class="avatar">
+                  <img :src="auth.user.avatar">
+                </div>
+              </div>
+  
+              <div class="user-side info">
+                <div class="dw">
+                  <div class="user-txt">
+                    <span class="user-content">
+                      {{ auth.user.username }}
+                    </span>
+                    <span class="caret"></span>
+                  </div>
+  
+                </div>
+  
+              </div>
+            </div>
+          </div>
+          <Dropdown ref="menu" style="top: 60px">
+            <div @click="goTo(auth.user._id)" class="item">Minha conta</div>
+            <div @click="logout()" class="item">Terminar sessão</div>
+          </Dropdown>
+        </div>
+      </div>
+    </header>
+  </template>
+  
+  <script>
+  import { api } from "@/api";
+  import { mapState } from "vuex";
+  import Dropdown from "../../academy/components/modals/Dropdown.vue";
+  
+  export default {
+    name: "Navbar",
+    computed: {
+      ...mapState(["auth", "panel"])
+    },
+    components: {
+      Dropdown
+    },
+    created() {
+      this.getCurrentUser()
+    },
+    mounted() {
+  
+    },
+    methods: {
+      openSidebar() {
+        if (this.panel.modal.name != "sidebar" && !this.panel.modal.show) {
+          this.$store.state.panel.modal = {
+            name: "sidebar",
+            show: true
+          }
+        } else {
+          this.$store.state.panel.modal = {
+            name: "",
+            show: false
+          }
+        }
+  
+      },
+      async getCurrentUser() {
+        try {
+          const res = await api.get("users/loadsession")
+          this.$store.dispatch('actionSetUser', res.data.currentUser)
+        } catch (err) {
+          console.log(err.message)
+        }
+      },
+      openMenu(e, index = -1) {
+        this.rightClickedTrackIndex = index;
+        this.$refs.menu.openMenu(e);
+      },
+      goTo(id) {
+        if (this.$route.params.id !== id) {
+          this.$router.push(`/epanel/profile/${id}`)
+        } else return
+      },
+      logout() {
+        localStorage.removeItem("access_token")
+        window.location.reload()
+      }
+    },
+  };
+  </script>
+  
+  <style scoped>
+  .navbar-academy {
+    position: fixed;
+    background-color: var(--primary);
+    border-bottom: none;
+    display: block;
+    margin: 0 !important;
+    padding: 2px 0 !important;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 130;
+    width: 100%;
+    padding: 2px 0 !important;
+  }
+  
+  .navbar-academy .contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 100%;
+  }
+  
+  .btn {
+    background: #2bc48a;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 34px;
+    min-width: 34px;
+    padding: 0 20px;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: .25s linear;
+  }
+  
+  .btn:hover {
+    transition: .25s linear;
+    background-color: #209669;
+  }
+  
+  .user {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  .user .papover {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .user .user-side {
+    display: inline-block;
+    line-height: 1rem;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 36px;
+    user-select: none;
+  }
+  
+  .user .user-side .avatar {
+    height: 34px;
+    width: 34px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: #dbdbdb;
+    border: 2px solid;
+    border-color: rgb(255 255 255);
+  }
+  
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .user-side .info {
+    margin-left: 10px;
+    max-width: 110px;
+    min-width: 83px;
+  }
+  
+  .user-side .info .dw {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .user-txt {
+    position: relative;
+    display: inline-block;
+    font-size: .9375rem;
+    line-height: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100px;
+    color: #fff;
+  }
+  
+  .user-contents {
+    display: inline-block;
+    margin: 0 !important;
+    max-width: 88px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .notification {
+    display: inline-block;
+    position: relative;
+    padding: 5px 9px !important;
+    margin-right: 5px;
+    border-radius: 20px !important;
+  }
+  
+  .caret {
+    position: absolute;
+    right: -4px;
+    top: 38px;
+    color: #688fa1;
+  }
+  
+  .burger {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 11px;
+  }
+  
+  @media(max-width: 767px) {
+    .navbar-academy {
+      width: 100%;
+    }
+  
+    .user {
+      width: auto !important;
+    }
+  
+    .user-side.info {
+      display: none !important;
+    }
+  
+    .user-side {
+      margin-right: 0px !important;
+    }
+  
+    .navbar-academy .left {
+      display: flex;
+    }
+  
+    .user .user-side .avatar {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .navbar-academy .contents {
+      justify-content: space-between;
+    }
+  }
+  </style>
